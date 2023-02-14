@@ -52,6 +52,10 @@ function myFunction(){
     eliminarClase();
     fechas[10].classList.add("seleccionado");
   }
+  if (window.pageYOffset >= secciones[12].offsetTop -100) {
+    eliminarClase();
+    fechas[11].classList.add("seleccionado");
+  }
   
 }
 
